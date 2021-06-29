@@ -16,7 +16,7 @@ Open a new terminal and run it using the following command:
 rosrun octomap_server octomap_server_node /cloud_in:=/orb_slam2_rgbd/map_points
 ```
 
-Note that we are remapping the `cloud_in`_topic to `orb_slam2_rgbd/map_points`_
+Note that we are remapping the `cloud_in` topic to `orb_slam2_rgbd/map_points`
 
 Later on we will directly add this change to the launch file.
 
